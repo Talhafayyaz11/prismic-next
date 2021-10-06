@@ -1,0 +1,31 @@
+{
+  "id": "tal-page",
+  "label": "Page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero_slice": {
+              "type": "SharedSlice"
+            },
+            "banner_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

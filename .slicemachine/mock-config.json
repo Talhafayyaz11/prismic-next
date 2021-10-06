@@ -1,0 +1,26 @@
+{
+  "slices": {
+    "BannerSlice": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "content": "The text will be showing in description"
+          },
+          "pavemintBannerImage": {
+            "content": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+          }
+        }
+      },
+      "rightHeroBanner": {
+        "primary": {}
+      }
+    },
+    "HeroSlice": {}
+  },
+  "_cts": {
+    "page": {},
+    "hero-page": {},
+    "tal-page": {},
+    "pavemint": {}
+  }
+}

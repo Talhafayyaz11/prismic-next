@@ -1,0 +1,31 @@
+{
+  "id": "hero-page",
+  "label": "Hero page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "banner_slice": {
+              "type": "SharedSlice"
+            },
+            "hero_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "hero_slice",
+  "type": "SharedSlice",
+  "name": "HeroSlice",
+  "description": "HeroSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroSlice",
+      "primary": {
+        "BackgroundImage": {
+          "config": {
+            "label": "",
+            "constraint": {
+              "width": 400,
+              "height": 400
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "HeroText": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

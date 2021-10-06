@@ -1,0 +1,99 @@
+{
+  "id": "banner_slice",
+  "type": "SharedSlice",
+  "name": "BannerSlice",
+  "description": "BannerSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BannerSlice",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": "New test that will show",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "pavemintBannerImage": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "pavemintImage",
+                "width": 150,
+                "height": 150
+              }
+            ]
+          },
+          "type": "Image"
+        },
+        "newTextField": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "rightHeroBanner",
+      "name": "RightHeroBanner",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BannerSlice",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": "New test that will show",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "pavemintBannerImage": {
+          "config": {
+            "label": "",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "pavemintImage",
+                "width": 150,
+                "height": 150
+              }
+            ]
+          },
+          "type": "Image"
+        },
+        "newTextField": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

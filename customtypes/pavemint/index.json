@@ -1,0 +1,18 @@
+{
+  "id": "pavemint",
+  "label": "Pavemint",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "",
+          "placeholder": ""
+        },
+        "type": "UID"
+      }
+    },
+    "SEO tags": {}
+  }
+}

@@ -1,16 +1,16 @@
-# Pre setup scripts
+## Pre setup scripts
 - sudo npm install -g prismic-cli
 - prismic login
 
-# Run slice machience locally
+## Run slice machience locally
 - prismic sm --develop
 
 
-# Story book
+## Story book
 - npm run storybook
 
  
-# Prismic Url
+## Prismic Url
 - https://pavemint-demo.prismic.io/
 
 

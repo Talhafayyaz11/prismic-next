@@ -7104,13 +7104,13 @@ neverthrow@^4.2.1:
   resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-4.2.2.tgz#cf333a8ab37398bc0c7a0349b9ea3c67de0ff880"
   integrity sha512-zmJ1Oo368VlI7Fp2p+uD3ekkEEYzHr4ZlTE/4vfjA+TPtstftvJ3meIS2EReKy604wVXb+N+8XtwN98Mc1jJsA==
 
-next-slicezone@^0.1.0:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/next-slicezone/-/next-slicezone-0.1.2.tgz#0054e14eb04f137d7a96b7d69cd0002158802348"
-  integrity sha512-nILyVK5oF0qq6eLpIlo7Jjymgyep4mHrFhrM365LaG5xa3pRdg10HSAE6E09jvHVEvYy8b8gkwUqXzFWttDu4g==
+next-slicezone@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/next-slicezone/-/next-slicezone-0.2.6.tgz#903ee3b6d1aa56657a7f6cdce5886e5cf7138227"
+  integrity sha512-FmLkyOXNTSw1aAsp9RE7wh+diaFjHI2TVehOeX46kQX6tVsQ7orQCUMgecz9+UUbz84xo1ke0wo+RoXkDWK67Q==
   dependencies:
     slash "^3.0.0"
-    sm-commons "^0.0.21"
+    sm-commons "0.1.6"
 
 next-transpile-modules@^6.1.0:
   version "6.4.1"
@@ -9197,15 +9197,14 @@ slice-machine-ui@^0.1.0-beta.2:
     yargs "^16.0.3"
     yup "^0.32.9"
 
-sm-commons@^0.0.21:
-  version "0.0.21"
-  resolved "https://registry.yarnpkg.com/sm-commons/-/sm-commons-0.0.21.tgz#d3e39c4efc53c6d9eba1c6c10b22205dbd53c165"
-  integrity sha512-hTkeBzsJ1cTzGIhTn5QKQfF84eDD/gVp63ZyiX7AegKMGgRziCG8NY2pckmffMwIMMyEHHMKMh+P/ZV4fN1IGQ==
+sm-commons@0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/sm-commons/-/sm-commons-0.1.6.tgz#6a3633fb4e4788d57fad008868cec4bf3696abd8"
+  integrity sha512-koFAXghHIa28Nnwh2mighltNsx2FZy6eizINO5K0IOImYwCrEzUsTrAZjv6D2Ul+XNz61jqPnmGNLeKnSIZ3SQ==
   dependencies:
     consola "^2.11.3"
     deepmerge "^4.2.2"
     expect.js "^0.3.1"
-    validate-npm-package "^1.0.5"
 
 sm-commons@^0.0.22:
   version "0.0.22"
